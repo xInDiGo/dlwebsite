@@ -1,0 +1,17 @@
+{
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537",
+    "timeout": 30,
+    "max_retries": 3,
+    "log_level": "INFO",
+    "sitemap_fallback": true,
+    "concurrent_downloads": 2,
+    "save_path": "./downloaded_websites/",
+    "skip_file_types": [".jpg", ".jpeg", ".png", ".gif"],
+    "max_pages_to_scrape": 500,
+    "selenium_logging_level": "INFO",
+    "chrome_options": [
+        "--log-level=3",
+        "--disable-infobars"
+        // Add more Chrome options as needed
+    ]
+}
